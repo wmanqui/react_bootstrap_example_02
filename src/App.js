@@ -3,8 +3,9 @@ import './App.css';
 
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
-
-
+import Footer from './components/layout/Footer';
+import CardExample1 from './components/scheme/Card';
+import CarouselExample1 from './components/scheme/Carousel';
 
 
 /*Original Code
@@ -35,6 +36,9 @@ function App(){
     <div className='App'>
       <Header/>
       <Nav/>
+      <CardExample1/>
+      <CarouselExample1/>
+      <Footer/>
     </div>
   );
 }
